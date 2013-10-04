@@ -110,7 +110,7 @@ def plot_analysis(keys, times):
 			plt.xticks(hticks, ['%d.%d' % (int(h / 60), int((h % 60) / 15)) for h in hticks])
 			plt.xlim(hlo, hhi)
 			plt.yticks([-2, -1] + x, ['mouse', 'typing'] + attributes)
-			plt.ylim(-3, len(attributes))
+			plt.ylim(-3, len(attributes) + 1)
 		plt.xlabel('hour of the day')
 		plt.savefig(figname + '.pdf', bbox_inches='tight')
 		plt.close()
