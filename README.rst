@@ -1,10 +1,14 @@
-User Interaction Profiler for X/Linux
-======================================
+Workflow Copilot and User Interaction Profiler
+====================================================
 
 About
 ------
-This is a copilot for your workflow, which removes distractions when you are
-concentrating, and pushes notifications to you when you are idle.
+
+ * This is a copilot for your workflow, which removes distractions when you are 
+   concentrating, and pushes notifications to you when you are idle.
+ * It also can be used to record your computer interaction and make neat plots.
+
+For Linux/X.
 
 How
 -----
